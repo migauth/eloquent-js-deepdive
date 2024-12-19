@@ -1,16 +1,31 @@
-// A basic calculator
+// A command line calculator
 
-let pro = process.argv
+let userInput = process.argv
 
-for (let i = 2; i < pro.length; i++) {
-  const element = pro[i];
-  console.log(element);
-}
-
-const calculator = (input) => {
-  for (let i = 0; i < pro.length; i++) {
-    const element = pro[i];
-    console.log(element);
+const looper = (input) => {
+  let arr = [];
+  for (let i = 2; i < input.length; i++) {
+    const element = input[i];
+    arr.push(Number(element))
   }
+  return arr;
 }
 
+console.log(looper(userInput));
+
+// I need to turn the inputs into numbers and add them
+
+const add = (input) => {
+  let sum = 0;
+  return input.reduce((acc, val) => acc + val, sum)
+}
+
+// const calculator = (input) => {
+//   let result = 0;
+//   for (let i = 2; i < input.length; i++) {
+//     const element = input[i];
+//     console.log(typeof element);
+//   }
+// }
+
+console.log(add(looper(userInput)));
