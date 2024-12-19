@@ -1,9 +1,8 @@
 // A command line calculator
 
-const prompt = require('prompt-sync')();
+// const prompt = require('prompt-sync')();
 
-let choice = prompt("Would you like to: add, subtract, multiply, divide? ");
-
+// let choice = prompt("Would you like to: add, subtract, multiply, divide? ");
 
 let userInput = process.argv
 
@@ -15,10 +14,6 @@ const looper = (input) => {
   }
   return arr;
 }
-
-console.log(looper(userInput));
-
-// I need to turn the inputs into numbers and add them
 
 const add = (input) => {
   let sum = 0;
