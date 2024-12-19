@@ -1,5 +1,10 @@
 // A command line calculator
 
+const prompt = require('prompt-sync')();
+
+let choice = prompt("Would you like to: add, subtract, multiply, divide? ");
+
+
 let userInput = process.argv
 
 const looper = (input) => {
