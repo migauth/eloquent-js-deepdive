@@ -1,9 +1,7 @@
-// A funtion that checks data types
+// A function that checks data types
 
 const checkType = function (input) {
-  // typeof doesn't check for null values specifically and will return object
   if (input === null) {return 'null'};
-  // special check for an array
   if (Array.isArray(input) === true) { return 'array'}
   return typeof input;
 };
