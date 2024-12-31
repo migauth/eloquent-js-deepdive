@@ -18,6 +18,7 @@ There are 7 main data types:
 Number
 - Represents both ingeter (4) and floating point (4.4) numbers
 - Rarely some circumstances can come up where large numberical persision is important, sometimes with 3D web dev
+- NaN is still a number type
 
 String
 - 
