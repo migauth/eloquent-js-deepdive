@@ -22,3 +22,8 @@ Number
 
 String
 - 
+
+## Urnary Operators
+- operate on single operand
+- can be a word or single symbol: typeof, delete vs +,-
+
