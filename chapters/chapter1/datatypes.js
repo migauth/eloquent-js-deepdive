@@ -1,4 +1,11 @@
 // A function that checks data types
+/* Uses: 
+- urnary operator typeof
+- function
+- conditionals if
+- array constructor Array
+- isArray method
+ */
 
 const checkType = function (input) {
   if (input === null) {return 'null'};
