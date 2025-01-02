@@ -27,3 +27,14 @@ String
 - operate on single operand
 - can be a word or single symbol: typeof, delete vs +,-
 
+## Binary Operators
+- operations on pairs of data
+- 2 + 2
+
+## Ternary operators
+- the condtional operator
+- ?:
+
+## Short Circuits
+
+- falsey values are: 0, null, ''(empty string)
