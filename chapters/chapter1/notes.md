@@ -37,4 +37,5 @@ String
 
 ## Short Circuits
 
-- falsey values are: 0, null, ''(empty string)
+- falsey values are: 0, null, ''(empty string), -0, 0n, NaN, undefined
+- truthy values include non-empty strings, non-zero numbers, objects, arrays, functions, true, Infinity, -Infinity, and instances of custom classes or Date
