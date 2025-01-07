@@ -1,4 +1,4 @@
-# Chapter 1 notes
+# Chapter 1 - Values, Types, and Operators
 
 There are 7 main data types:
 6 Primative types
@@ -21,7 +21,7 @@ Number
 - NaN is still a number type
 
 String
-- 
+- ...
 
 ## Urnary Operators
 - operate on single operand
