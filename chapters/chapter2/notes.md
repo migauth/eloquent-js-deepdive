@@ -20,3 +20,10 @@ Examples
 - let x = 5; (a variable definition)
 - if (x > 10) {console.log("bigger number");} (a conditional statement)
 - for (let i = 0, i < 5, i++) {console.log(i); } (a loop statement)
+
+Expression prodcues a value
+Statement performs an action
+
+## Bindings
+- Think of bindings as tenticles rather than containers because the bindings can change, 'they do not contain values, they grasp them'
+- 
