@@ -26,4 +26,10 @@ Statement performs an action
 
 ## Bindings
 - Think of bindings as tenticles rather than containers because the bindings can change, 'they do not contain values, they grasp them'
-- 
+
+## Environments
+- a global environment is first created that contains built in bindings (console.log, Math, Date) and the global object
+- when a binding (variable) is created it becomes part of the programs environment
+- this is where local and global scopes come in
+
+## Functions
