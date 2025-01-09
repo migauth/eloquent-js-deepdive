@@ -1,4 +1,4 @@
-// If statement solution
+// If statement solution ** conditional execution
 
 const fizzBuzz = (count) => {
   let arr = []
@@ -16,4 +16,17 @@ const fizzBuzz = (count) => {
   return(arr);
 }
 
-console.log(fizzBuzz(100));
+// Better for adding new conditionals easily
+
+const fizzBuzz2 = (count) => {
+  for (let i = 1; i <= count; i++) {
+    let output = ''
+    if (i % 3 === 0){output += "Fizz"}
+    if (i % 5 === 0){output += "Buzz"}
+    if (!output) {output = String(i)}
+    console.log(output);
+  }
+}
+
+fizzBuzz2(100);
+
