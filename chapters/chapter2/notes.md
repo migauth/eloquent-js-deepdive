@@ -33,3 +33,10 @@ Statement performs an action
 - this is where local and global scopes come in
 
 ## Functions
+- Parameter is the named variable placeholder, argument is the actual value passed to the function
+
+## Flow
+- Control flow: straight line, left to right, up to down
+- Conditional flow: change depenind on condition, aka if statement etc.
+
+## While and do loops
