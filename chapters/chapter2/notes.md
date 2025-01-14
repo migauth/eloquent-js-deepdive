@@ -40,3 +40,11 @@ Statement performs an action
 - Conditional flow: change depenind on condition, aka if statement etc.
 
 ## While and do loops
+- while loops are best when you need to ensure the condition is checked before the block runs
+- do...while loops are ideal when the block must execute at least once, regardless of the initial condition
+
+## Indentation
+- indentation doesnt matter in js technically, only for readability
+- called 'free form
+- vs python which is 'whitespace-sensitive' or 'indentation sensitive' or 'indentation spaced syntax'
+
