@@ -59,4 +59,4 @@ Statement performs an action
 - remember to break and case
 
 ## Capitalization
-- 
+- Camel case
