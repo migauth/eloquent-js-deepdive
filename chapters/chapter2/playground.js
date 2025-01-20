@@ -26,8 +26,20 @@ let username;
 
 //this works
 
-do {
-  username = prompt("What is you name? ")
-} while (!username) {
-  console.log(username);
+// do {
+//   username = prompt("What is you name? ")
+// } while (!username) {
+//   console.log(`hello ${username}`);
+// }
+let counter = 0
+
+function repeat() {
+  if (counter < 10) {
+    counter++;
+    console.log(counter);
+    console.log('hi');
+    repeat()
+  }
 }
+
+repeat()
