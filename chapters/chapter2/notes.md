@@ -48,3 +48,15 @@ Statement performs an action
 - called 'free form
 - vs python which is 'whitespace-sensitive' or 'indentation sensitive' or 'indentation spaced syntax'
 
+## For loops and break
+- for loops have a bit more structure and readability advantages with initialization, condition, and increments built into one line
+- for when you know, while when you don't
+
+## Succinctly updating bindings
+- can use += for larger than one and ++ for incriments of 1, etc.
+
+## Switch statements
+- remember to break and case
+
+## Capitalization
+- 
