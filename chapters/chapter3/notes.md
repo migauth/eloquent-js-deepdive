@@ -53,10 +53,10 @@ counter(); // 2
 Here, inner() forms a closure, retaining access to count even after outer() has returned.
 
 ## Recursion
-- 
+- A funtion that calls itself
 
 ## Growing Functions
-- 
+- Keep your functions simple. Separate them into multiple functions if they take on too many tasks.
 
 ## Funcs and Side effects
 - 
